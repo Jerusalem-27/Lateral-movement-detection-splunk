@@ -13,19 +13,19 @@ Using log correlation and behavioral analysis, this project detects suspicious a
 
 ## Investigation Evidence
 
-### Initial Detection
+### 1. Initial Detection
 ![Initial Detection](./01-initial-detection.png)
 
-### Lateral Movement Tracking
+### 2. Lateral Movement Tracking
 ![Lateral Movement](./02-lateral-movement-tracking.png)
 
-### Command Execution
+### 3. Command Execution
 ![Command Execution](./03-command-execution.png)
 
-### Event Correlation
+### 4. Event Correlation
 ![Event Correlation](./04-event-correlation.png)
 
-### Anomaly Detection
+### 5. Anomaly Detection
 ![Anomaly Detection](./05-anomaly-detection.png)
 
 ---
