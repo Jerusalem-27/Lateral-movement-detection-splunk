@@ -139,7 +139,7 @@ Developed Splunk detection logic to support:
 ---
 
 ## Skills Demonstrated  
-- Threat Detection $ Analysis
+- Threat Detection & Analysis
 - Threat Hunting  
 - Lateral Movement Analysis  
 - Windows Event Log Correlation  
