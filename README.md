@@ -1,4 +1,4 @@
-# Lateral Movement Detection in Windows Environments using Splunk (Event IDs 4624, 4672, 4688)
+# Lateral Movement Detection using Splunk (Windows Logs, WMIC & PowerShell)
 
 ---
 
