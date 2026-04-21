@@ -11,6 +11,25 @@ Using log correlation and behavioral analysis, this project detects suspicious a
 
 ---
 
+## Investigation Evidence
+
+### Initial Detection
+![Initial Detection](./01-initial-detection.png)
+
+### Lateral Movement Tracking
+![Lateral Movement](./02-lateral-movement-tracking.png)
+
+### Command Execution
+![Command Execution](./03-command-execution.png)
+
+### Event Correlation
+![Event Correlation](./04-event-correlation.png)
+
+### Anomaly Detection
+![Anomaly Detection](./05-anomaly-detection.png)
+
+---
+
 ## Detection Logic Summary
 Correlated authentication (Event ID 4624), privilege escalation (Event ID 4672), and process execution (Event ID 4688) events to identify lateral movement patterns across multiple hosts originating from a single source system.
 
