@@ -1,4 +1,4 @@
-# Detection Engineering: Lateral Movement via PSEXESVC, WMIC, and PowerShell in Splunk
+# Lateral Movement Detection in Windows Environments using Splunk (Event IDs 4624, 4672, 4688)
 
 ---
 
