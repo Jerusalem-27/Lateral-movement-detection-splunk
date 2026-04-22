@@ -14,21 +14,52 @@ Using log correlation and behavioral analysis, this project detects suspicious a
 ## Investigation Evidence
 
 ### 1. Initial Detection
-![Initial Detection](./01-initial-detection.png)
 
-### 2. Lateral Movement Tracking
-![Lateral Movement](./02-lateral-movement-tracking.png)
+<p align="center">
+  <img src="./evidence/01-initial-detection.png" width="800">
+</p>
 
-### 3. Command Execution
-![Command Execution](./03-command-execution.png)
-
-### 4. Event Correlation
-![Event Correlation](./04-event-correlation.png)
-
-### 5. Anomaly Detection
-![Anomaly Detection](./05-anomaly-detection.png)
+Initial query surfaced suspicious authentication activity originating from a single source, indicating potential unauthorized access.
 
 ---
+
+### 2. Lateral Movement Tracking
+
+<p align="center">
+  <img src="./evidence/02-lateral-movement-tracking.png" width="800">
+</p>
+
+Observed the same account accessing multiple hosts within a short timeframe, suggesting lateral movement across the environment.
+
+---
+
+### 3. Command Execution
+
+<p align="center">
+  <img src="./evidence/03-command-execution.png" width="800">
+</p>
+
+Detected execution of administrative and reconnaissance commands on remote systems, consistent with post-compromise activity.
+
+---
+
+### 4. Event Correlation
+
+<p align="center">
+  <img src="./evidence/04-event-correlation.png" width="800">
+</p>
+
+Correlated authentication and privilege-related events to identify relationships between logins and elevated actions across hosts.
+
+---
+
+### 5. Anomaly Detection
+
+<p align="center">
+  <img src="./evidence/05-anomaly-detection.png" width="800">
+</p>
+
+Identified abnormal access patterns, including repeated remote logins and unusual system interactions, indicating potential attacker behavior.
 
 ## Detection Logic Summary
 Correlated authentication (Event ID 4624), privilege escalation (Event ID 4672), and process execution (Event ID 4688) events to identify lateral movement patterns across multiple hosts originating from a single source system.
